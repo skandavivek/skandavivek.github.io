@@ -26,7 +26,7 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
-  - title: "posts"
+  - title: "Posts"
     url: /posts/
   # - title: "Sample Collections"
   #   url: /collection-archive/

@@ -5,7 +5,9 @@ layout: posts
 author_profile: true
 ---
 
-I apologize in advance. Some of my posts are *very* rough drafts. They cover a broad range of topics: physics, data science, complex systems - all the usual stuff, but also some philosophy, book reviews, and god knows what else... But I have what I think is an excellent reason for doing this.
+I apologize in advance. Some of my posts here are *very* rough drafts. If you would like to see more well put-together work, please have a look at my [Medium profile](https://skanda-vivek.medium.com/).
+
+They cover a broad range of topics: physics, data science, complex systems - all the usual stuff, but also some philosophy, book reviews, and god knows what else... But I have what I think is an excellent reason for doing this.
 
 You see, as a writer, it is important to write and exercise writing muscles. Write something bad, recognize where you made mistakes. Write it better. Next time make less mistakes. Compartmentalize writing into different key muscle groups. Isolate specific writing muscles to work on. But writing good stories is not just about writing. Think about a long-distance runner, do they just run all the time? Usain Bolt also goes to the gym, and does static exercises. He probably also spends a good deal of time learning from previous runners - maybe reading books or watching videos.
 

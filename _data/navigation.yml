@@ -26,8 +26,8 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "posts"
+    url: /posts/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Terms &amp; Privacy Policy"

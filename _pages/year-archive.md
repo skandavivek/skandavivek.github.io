@@ -3,6 +3,7 @@ title: "Posts"
 permalink: /posts/
 layout: posts
 author_profile: true
+comments: true
 ---
 
 I apologize in advance. Some of my posts here are *very* rough drafts. If you would like to see more well put-together work, please have a look at my [Medium profile](https://skanda-vivek.medium.com/).

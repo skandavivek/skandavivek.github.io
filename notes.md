@@ -29,6 +29,9 @@ _pages/home.md	permalink: /
 
 _pages/contact.md	permalink: /contact/
 
+Posts:
+front matter in year-archive.md
+
 ## running
 
 bundle exec jekyll serve

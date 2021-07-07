@@ -28,3 +28,10 @@ _pages/about.md	permalink: /about/
 _pages/home.md	permalink: /
 
 _pages/contact.md	permalink: /contact/
+
+## running
+
+bundle exec jekyll serve
+
+
+runs at: http://127.0.0.1:4000//

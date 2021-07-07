@@ -26,9 +26,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 words_per_minute         : 200
 <link rel="stylesheet" href="{{ "/assets/css/main.css, " | prepend: site.baseurl }}">
 comments:
-  provider               : "false" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "custom"
   disqus:
-    shortname            :
+    shortname            : "skanda-2"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -223,7 +223,7 @@ defaults:
       read_time: false
       author_profile: false
       share: false
-      comments: false
+      comments: true
       sidebar:
         nav: "docs"
   # _recipes

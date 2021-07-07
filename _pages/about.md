@@ -14,6 +14,7 @@ excerpt: "About Skanda Vivek."
 #     alt: "archive layout example"
 # last_modified_at: 2021-05-11T10:23:16-04:00
 # toc: true
+comments: true
 ---
 
 I'm an assistant professor of physics at Georgia Gwinnett College, and received [my PhD in physics at Emory University](https://www.pnas.org/content/114/8/1850). Prior to joining GGC I was a post-doctoral fellow at GeorgiaTech, and studied the impacts of [large-scale vehicular hacks on transportation networks](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.100.012316).

@@ -8,6 +8,13 @@ tags:
   - snipette
 ---
 
+https is a big deal when it comes to security, professional look, and SEO rankings.
+
+<figure >
+    <a href="/assets/images2/github.png"><img src="/assets/images2/github.png" alt="GitHub logo | [Bo-Yi Wu](https://www.flickr.com/photos/appleboy/13158675193)"></a>
+</figure>
+
+
 I've been using the [minimal mistakes theme on GitHub](https://github.com/mmistakes/minimal-mistakes) to create a website. So far I've loved it for my use cases.
 Originally I was using Wixsite for a website. But I'm so used to writing on editors that I like, or Medium's WYSIWYG editor, that I became quite annoyed by Wix.
 Wix is like powerpoint, except for a website. Yes everything is customizable and there's movable boxes. But I prefer something minimalist and robust, for blogs. I
@@ -33,7 +40,7 @@ This was annoying as I didn't like people seeing "not secure" right next to my w
 First, I created alias name records to point my domain to the 4 IP addresses for GitHub pages site as [described in the GitHub website](https://docs.GitHub.com/en/pages/configuring-a-custom-domain-for-your-GitHub-pages-site/managing-a-custom-domain-for-your-GitHub-pages-site). Next, I created a CNAME record pointing to my github.io site. Previously I named the URL prefix as www, which is what I was told on other blogs. But that didn't work. But this time I named the URL prefix as https, which did the trick!
 
 <figure >
-    <a href="/assets/images2/GitHub-https.png"><img src="/assets/images2/GitHub-https.png" alt="GitHub pages https config  by Skanda Vivek"></a>
+    <a href="/assets/images2/github-https.png"><img src="/assets/images2/github-https.png" alt="GitHub pages https config  by Skanda Vivek"></a>
 </figure>
 
 Finally, I went to my GitHub pages site repository settings. Under pages, I added the custom domain pointing to my firstnamelastname.com website. Next I clicked on enforce https, and this seemed to work! Note: GitHub still says that my site is improperly configured, but everything seems to work just fine. I hope this is useful to anyone wanting to create a GitHub pages site and enforce https!

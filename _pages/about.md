@@ -23,8 +23,15 @@ Currently, my interests are in studying cyber-physical vulnerabilities across co
 
 I'm also a scientific content creator. I regularly write blogs at the interface of complex systems, and data science for the social good in [Medium](https://skanda-vivek.medium.com/). I've made an open-acess textbook to teach non-science majors science through [examples of everyday phenomena](https://alg.manifoldapp.org/projects/science-of-everyday-materials). I also collaborate with educational publishers like Pearson to make educational videos. If you are interested in collaborating, shoot me an email <skanda.vivek@gmail.com>!
 
+<h2 style="text-align:center">Subscribe to my newsletter.</h2>
+
+<p align="center">
+<iframe src="https://skandavivek.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+</p>
+
+
 <!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<!-- <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
@@ -36,8 +43,3 @@ I'm also a scientific content creator. I regularly write blogs at the interface 
 	<label for="mce-EMAIL">Subscribe</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cd3eef2d66d1a86e7eba23eb3_fb46f3513a" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>

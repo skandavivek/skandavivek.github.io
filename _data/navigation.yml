@@ -26,10 +26,10 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
-#  - title: "Posts"
-#    url: /posts/
-#  - title: "Tags"
-#    url: /tags/
+  - title: "Posts"
+    url: /posts/
+  - title: "Tags"
+    url: /tags/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Terms &amp; Privacy Policy"

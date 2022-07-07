@@ -29,8 +29,14 @@ _pages/home.md	permalink: /
 
 _pages/contact.md	permalink: /contact/
 
-Posts:
-front matter in year-archive.md
+*Posts*:
+front matter in /pages/year-archive.md
+
+*Tags*:
+front matter in /pages/tag-archive.md
+
+*sidebar and other omnipresent features*
+_config.yml
 
 ## running
 

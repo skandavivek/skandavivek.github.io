@@ -9,7 +9,7 @@ header:
   #  - label: "<i class='fas fa-download'></i> Install now"
   #    url: "/docs/quick-start-guide/"
 excerpt: >
-  Scientist, solving complex societal problems one minimal step at a time. <br />
+  Scientist, solving complex societal problems one minimal step at a time.<br />
 #<small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.23.0">Latest release v4.23.0</a></small>
 intro:
   - excerpt: 'Welcome to my digital home, where I attempt to make a story from my digital persona. Life = minimalism + iteration :smile:.'
@@ -39,8 +39,8 @@ feature_row:
 ---
 {% include feature_row id="intro" type="center" %}
 {% include feature_row %}
-<h2 style="text-align:center">Subscribe to my newsletter.</h2>
+<!-- <h2 style="text-align:center">Subscribe to my newsletter.</h2> -->
 
-<p align="center">
+<!-- <p align="center">
 <iframe src="https://skandavivek.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-</p>
+</p> -->

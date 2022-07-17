@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-07T01:44:58+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Skanda Vivek</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Skanda Vivek</name></author><entry><title type="html">Getting GitHub Pages Sites To Enforce https</title><link href="http://localhost:4000/blog/github-https/" rel="alternate" type="text/html" title="Getting GitHub Pages Sites To Enforce https" /><published>2021-07-12T00:00:00+00:00</published><updated>2021-07-12T00:00:00+00:00</updated><id>http://localhost:4000/blog/github-https</id><content type="html" xml:base="http://localhost:4000/blog/github-https/">&lt;p&gt;https is a big deal when it comes to security, professional look, and SEO rankings.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-17T01:43:30+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Skanda Vivek</title><subtitle>A flexible Jekyll theme for your blog or site with a minimalist aesthetic.</subtitle><author><name>Skanda Vivek</name></author><entry><title type="html">Raga Bhairavi in Carnatic Music</title><link href="http://localhost:4000/blog/bhairavi/" rel="alternate" type="text/html" title="Raga Bhairavi in Carnatic Music" /><published>2022-07-14T00:00:00+00:00</published><updated>2022-07-14T00:00:00+00:00</updated><id>http://localhost:4000/blog/bhairavi</id><content type="html" xml:base="http://localhost:4000/blog/bhairavi/">&lt;p&gt;There are a total of 72 whole scales (also called Melakarta Ragas) in Indian Carnatic classical music, as I’ve gone through in a &lt;a href=&quot;https://medium.com/emergent-phenomena/the-mathematics-behind-indian-and-western-music-f00afc8c2416&quot;&gt;previous blog&lt;/a&gt;. In this article I’ll talk about one raga in Carnatic music called Bhairavi (different from the Hindustani Bhairavi) which is not one out of the 72, but derived from 2 of the ragas. Such derived scales are also called as Janya ragas.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;/assets/images2/melakarta.png&quot;&gt;&lt;img src=&quot;/assets/images2/melakarta.png&quot; alt=&quot;South Indian Melakarta Ragas | [Basavarajtalwar](https://commons.wikimedia.org/wiki/User:Basavarajtalwar)&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;p&gt;But first of all, why are there only 72 Melakarta Ragas? It is because of mathematics and the way the human ear is sensitive in distinguishing pitch One super interesting concept is that the minimal difference between consecutive notes - whether it is semitones in Western classical music or adjacent swaras in Indian music, the difference between them is the same. This fascinatingly suggests that human ears can basically distinguish a very specific frequency interval - or this could just be the way music accidently evolved over millenia.&lt;/p&gt;
+
+&lt;p&gt;Back to Indian music - how does the number 72 come about? Every scale has 8 notes (S,R,G,M,P,D,N,S) and 3 are fixed (S,P,S). There are 3 possible R, G, D, and N. However there are only 2 possible Ms. The first 36 Melakarta ragas correspond to the M1; the latter 36 correspond to M2. Each of the 36 are grouped into 6 subgroups as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1:6 → R1, G1&lt;/li&gt;
+  &lt;li&gt;7:12 → R1, G2&lt;/li&gt;
+  &lt;li&gt;13:18 → R1, G3&lt;/li&gt;
+  &lt;li&gt;19:24 → R2, G2&lt;/li&gt;
+  &lt;li&gt;25:30 → R2, G3&lt;/li&gt;
+  &lt;li&gt;31:36 → R3, G3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bhairavi-raga-and-composition&quot;&gt;Bhairavi Raga and Composition&lt;/h2&gt;
+
+&lt;p&gt;Bhairavi has different ascending and descending scales as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ascending: S R2 G2 M1 P D2 N2 S&lt;/li&gt;
+  &lt;li&gt;Descending: S N1 D1 P M1 G2 R2 S&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As you can see both ascending and descending would fall into the 19 through 24 bucket. In fact, ascending Bhairavi is Karaharapriya (Melakarta 22) wherease descending is Natabhairavi (Melakarta 19). Here is what Bhairavi sounds like:&lt;/p&gt;
+
+&lt;audio controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/av/scale-bhairavi.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;/audio&gt;
+
+&lt;p&gt;In Carnatic music varnas are a type of composition that are neat, precise compositions. They form the basis for a musician’s understanding of characteristic swaras and patterns in a raga. Viriboni is a varna in raga Bhairavi composed by Pacchimiriyam Adiappayya. It is a particularly difficult varna as it is in Ata Thala. Ata Thala is a notoriously difficult tala (beat) in Carnatic music as you have 14 beats per cycle, whereas typically you have 8 beats per cycle. The larger number of beats makes it harder to keep track and focus, but makes for more elaborate compositions. Here is what Viriboni sounds like:&lt;/p&gt;
+
+&lt;audio controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/av/viriboni.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;/audio&gt;
+
+&lt;h2 id=&quot;bhairavi-raga-signatures-and-exercises&quot;&gt;Bhairavi Raga Signatures and Exercises&lt;/h2&gt;
+
+&lt;p&gt;This first exercise is what I use as a warmup before Aalapane - which is freestyle melodic singing based on the ragas without any notes (sort of like a jazz solo, except without particular attention to timing but more attention to melody, patterns and speed). In this exercise I go through the scale, practicing both speed and accuracy - sort of like a guitar shred.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;SRGMPNDS-NDPMGRS&lt;/li&gt;
+  &lt;li&gt;RGMPDNSR-SNDPMGR&lt;/li&gt;
+  &lt;li&gt;GMPDNSRG-RSNDPMG&lt;/li&gt;
+  &lt;li&gt;MPDNSRGM-GRSNDPM&lt;/li&gt;
+  &lt;li&gt;PDNSRGMP-MGRSNDP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;audio controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/av/viriboni-scale-ex1.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;/audio&gt;
+
+&lt;p&gt;The audio excerpt below is a classic Bhairavi pattern to evoke the descending N swara (SGRGMPDP NDP)&lt;/p&gt;
+
+&lt;audio controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/av/viriboni-scale-ex2.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;/audio&gt;
+
+&lt;p&gt;The excerpt below demonstrates the dissonant N while ascending and descending and is another classic pattern in Bhairavi. Interestingly this signature pattern actually violates the basic rule of Bhairavi as it uses the N1 while going up and N2 while going down! (PDN1DPDM PDRSN2DN2)&lt;/p&gt;
+&lt;audio controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/av/viriboni-scale-ex3.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;/audio&gt;
+
+&lt;p&gt;The excerpt below touches on reaching the high S and lingering over it which is very important during Bhairavi Aalapane.&lt;/p&gt;
+&lt;audio controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/av/viriboni-scale-ex4.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;/audio&gt;
+
+&lt;p&gt;The excerpt illustrates a longer version of what a singer typically does after warming up and reaching the higher notes. This has a bunch of cascading repetitive patterns building from the small to the large. It is one of my favorite aspects of Raga Aalapane.&lt;/p&gt;
+&lt;audio controls=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/av/viriboni-scale-ex5.mp3&quot; type=&quot;audio/mpeg&quot; /&gt;
+&lt;/audio&gt;
+
+&lt;h2 id=&quot;famous-singers-performing-in-raga-bhairavi&quot;&gt;Famous Singers performing in Raga Bhairavi&lt;/h2&gt;
+
+&lt;p&gt;K.V. Narayanaswamy is one of the finest Carnatic musicians and was awarded the Sangeetha Kalanidhi, given yearly to a Carnatic music singer by the Madras Music Academy. He has a beautiful rendition of Balagopala in Bhairavi, composed by the famous Carnatic composer Muthuswami Dikshitar&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/UwYLebUiNO4&quot; height=&quot;200&quot; width=&quot;300&quot; title=&quot;KV Narayanaswamy - bAlagOpAla pAlayashu - bhairavi - dIkshitar&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;M.S. Subbalakshmi, one of the most famous Carnatic musicians ever gives a soulful rendition of Enati Nomu Phalamo in Bhairavi by Saint Thyagaraja:&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/oNw6VRldLmk&quot; title=&quot;MS Subbulakshmi- Enati Nomu Phalamo- Bhairavi- Adi- Thyagaraja&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;.  .  .&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you enjoyed this post and could bear my singing along, follow along here or my &lt;a href=&quot;https://skanda-vivek.medium.com/&quot;&gt;Medium account&lt;/a&gt; as I will be posting deeper explorations into various Carnatic music components including the 72 Melakarta Ragas and patterns.&lt;/em&gt;&lt;/p&gt;</content><author><name>Skanda Vivek</name></author><category term="blog" /><category term="Music" /><summary type="html">There are a total of 72 whole scales (also called Melakarta Ragas) in Indian Carnatic classical music, as I’ve gone through in a previous blog. In this article I’ll talk about one raga in Carnatic music called Bhairavi (different from the Hindustani Bhairavi) which is not one out of the 72, but derived from 2 of the ragas. Such derived scales are also called as Janya ragas.</summary></entry><entry><title type="html">Getting GitHub Pages Sites To Enforce https</title><link href="http://localhost:4000/blog/github-https/" rel="alternate" type="text/html" title="Getting GitHub Pages Sites To Enforce https" /><published>2021-07-12T00:00:00+00:00</published><updated>2021-07-12T00:00:00+00:00</updated><id>http://localhost:4000/blog/github-https</id><content type="html" xml:base="http://localhost:4000/blog/github-https/">&lt;p&gt;https is a big deal when it comes to security, professional look, and SEO rankings.&lt;/p&gt;
 
 &lt;figure&gt;
     &lt;a href=&quot;/assets/images2/github.png&quot;&gt;&lt;img src=&quot;/assets/images2/github.png&quot; alt=&quot;GitHub logo | [Bo-Yi Wu](https://www.flickr.com/photos/appleboy/13158675193)&quot; /&gt;&lt;/a&gt;

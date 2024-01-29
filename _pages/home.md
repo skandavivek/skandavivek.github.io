@@ -26,14 +26,14 @@ feature_row:
     alt: "100% free"
     title: "Large Language Models in Production Course"
     excerpt: "LIVE event on the fundamental concepts for building and deploying real-world LLMs in production!"
-    url: "https://alg.manifoldapp.org/projects/science-of-everyday-materials"
+    url: "https://www.oreilly.com/live-events/large-language-models-in-production/0636920098590/0636920098589/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images2/leonardo-llama.jpg
     alt: "100% free"
     title: "YouTube Channel"
     excerpt: "YouTube Channel on AI and Data Science in Everyday Life!"
-    url: "https://alg.manifoldapp.org/projects/science-of-everyday-materials"
+    url: "https://www.youtube.com/channel/UCqTQFBL17FbF0imuzZOUP_A"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---

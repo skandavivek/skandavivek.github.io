@@ -84,7 +84,7 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-361245756" # Replace this with your ID, or delete
+    tracking_id          : "G-NNDE0DPF4R" # Replace this with your ID, or delete
     anonymize_ip         : false
 
 

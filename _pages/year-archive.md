@@ -6,7 +6,7 @@ author_profile: true
 comments: true
 ---
 
-Welcome! I'm in the process of adding newsletter functionality! Please show your support by joining this free newsletter :blush:!
+Welcome! Please show your support by joining this free newsletter :blush:!
 
 <div id="mc_embed_shell">
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">

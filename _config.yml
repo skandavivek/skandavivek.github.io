@@ -92,7 +92,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images2/skanda-vivek.jpeg"
-  bio              : "Scientist at the interface of complex systems, data science, and the social good."
+  bio              : "Experiment fast, learn fast, and ship fast."
   #location         : "Atlanta, GA"
   links:
     - label: "Skanda Vivek"

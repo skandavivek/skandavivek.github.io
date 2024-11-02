@@ -22,11 +22,11 @@ feature_row:
     url: "https://skanda-vivek.medium.com/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images2/llms-prod.jpeg
+  - image_path: /assets/images2/haystack-book.png
     alt: "100% free"
-    title: "Large Language Models in Production Course"
-    excerpt: "LIVE event on the fundamental concepts for building and deploying real-world LLMs in production!"
-    url: "https://www.oreilly.com/live-events/large-language-models-in-production/0636920098590/0636920098589/"
+    title: "RAG Book"
+    excerpt: "Retrieval Augmented Generation in Production with Haystack"
+    url: "https://learning.oreilly.com/library/view/retrieval-augmented-generation/9781098165161/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images2/leonardo-llama.jpg

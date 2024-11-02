@@ -21,7 +21,7 @@ I'm a senior data scientist at Intuit Mailchimp working on developing tailored e
 
 I'm also passionate about sharing knowledge and expertise at the interface of AI, industry use-cases, and research. My [Medium blog](https://skanda-vivek.medium.com/) on applying state of the art AI including LLMs in real-world scenarios is read by tens of thousands of viewers every month. I run a growing [YouTube channel](https://www.youtube.com/channel/UCqTQFBL17FbF0imuzZOUP_A) on Data Science In Everyday Life. I also teach a live course on LLMs in production at Oreilly.
 
-I'm writing a couple of books on how to bring enterprise data into LLMs using Retrieval Augmented Generation (RAG). Stay tuned for more updates!
+I'm writing a book with Oreilly on how to bring enterprise data into LLMs using [Retrieval Augmented Generation (RAG)](https://learning.oreilly.com/library/view/retrieval-augmented-generation/9781098165161/).
 
 Prior to that I was a Senior Data Scientist in the Risk Intelligence team at OnSolve where I developed AI based algorithms for rapidly detecting critical emergencies through big data. I'm also an [Assistant Research Scholar at the University of Maryland, College Park](https://spp.umd.edu/our-community/faculty-staff/skanda-vivek). Before that, I was an assistant professor of physics at Georgia Gwinnett College, and a post-doctoral fellow at Georgia Tech , where I studied the impacts of [large-scale vehicular hacks on transportation networks](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.100.012316). I received [my PhD in physics at Emory University](https://www.pnas.org/content/114/8/1850).
 

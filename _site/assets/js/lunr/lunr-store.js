@@ -22,4 +22,10 @@ var store = [{
         "tags": ["Music"],
         "url": "/blog/bhairavi/",
         "teaser": null
+      },{
+        "title": "Keeping LLMs Classy",
+        "excerpt":"I’ve seen many posts that 2025 is the year of AI agents - but I think 2025 will come to be the year of the beginning of AI (read GenAI here) reckoning in hindsight. Large companies have spent the last two years focusing on integrating AI into their applications, and...","categories": ["blog"],
+        "tags": ["tech"],
+        "url": "/blog/llm-quality/",
+        "teaser": null
       },]

@@ -7,7 +7,7 @@ tags:
   - tech
 ---
 
-I've seen many posts that 2025 is the year of AI agents - but I think 2025 will come to be the year of the beginning of AI (read GenAI here) reckoning in hindsight. 
+I've seen many posts that 2025 is the year of AI agents - but I think 2025 will come to be the year of the beginning of the AI (read GenAI here) reckoning in hindsight. 
 Large companies have spent the last two years focusing on integrating AI into their applications, and now the question will be - how does AI help our topline or bottom line? Is it helping increase revenue, or decrease cost? See - I think AI has been a big reason for the recent layoffs across multiple companies. So that executives can say - through my initiative, I saved the company X% by automating labor (separate question as to whether this actually happened or not).
 
 So let's say you are building an LLM based application. How do you make sure that the product experience you are building around LLMs is not going to be scrapped? For this, you need some way to make sure the application is doing a good job. In this article, I go through the steps involved in doing so - turns out, it is not so simple as (only) making API calls to your favorite LLM provider. 
@@ -20,11 +20,13 @@ If you were a customer, would you use company X's product built on top of an LLM
     <a href="/assets/images2/llm-classy.png"><img src="/assets/images2/llm-classy.png" alt="Skanda Vivek"></a>
 </figure>
 
+A good example of an application in the sweet spot is Cursor - which is an AI code editor like GitHub copilot, but much more optimized for autocompletion (go crazy with tab, tab, tab). Cursor is built on top of LLMs like GPT and Claude - so it does not reinvent the wheel, but focuses on this niche of coding autocompletion. At the same time, it is a popular niche, so they have enough traction from users to build something that a lot of people value.
+
 ## How Do You Wow Users?
 
 Unless you are a startup with billions of dollars to burn, you can't wow your users through AI alone. That's the hard reality- your users have already been wowed by GPT or Claude or Gemini, etc. But if you are a company that's been in the business for atleast a few years - chances are that your users find something useful, otherwise they would have left. What you can do though - is make users even more impressed by offering them new GenAI features, or making it easier to do whatever task they've come to you for - either on the web or in person. Ultimately, it comes down to data. What do you know about X person, to help them perform Y task? Given that data, LLMs are very capable of making basic decisions, and giving information to users in a consumable way.
 
-Let's say you build a LinkedIn content creation platform. Based on a user's behavior, you can give them post suggestions. But if you don't have basic personalization, the same user can just make a LinkedIn post on their favorite LLM app. I also think that recommendation systems are here to stay in a big way. The 'retrieval' aspect of RAG is nothing but a text based recommender. 
+Let's say for example you are work at LinkedIn and are tasked with generating LinkedIn content that users can post. Based on a user's behavior, you can give them post suggestions. But if you don't have this, and build a simple wrapper around an LLM - this is not as useful. The same user can just make a LinkedIn post on their favorite LLM app and post it using LinkedIn. In the spirit of integrating user data with LLMs - I also think that recommendation systems are here to stay in a big way. The 'retrieval' aspect of RAG is nothing but a text based recommender. 
 
 <figure >
     <a href="/assets/images2/walmart-rec.png"><img src="/assets/images2/walmart-rec.png" alt="[Walmart Rec Sys](https://arxiv.org/pdf/2410.12228)"></a>
@@ -50,7 +52,7 @@ You need a way to benchmark your model before putting it out to users. This is w
 </figure>
 
 
-However, while it is possible for humans to grade a few tens or humderds of examples, this becomes hard to scale. One problem is that grading just takes a lot of time. Each time you deploy a small variation, grading tens or hundreds of examples becomes expensive. Let's think about how to automate this. One option is if your task has well defined constaints. Let's say your users are asking questions based on a user manual - maybe a fridge product. Here answering the user query happens in two steps. First, the relevant context needs to be retrieved from the user manual, and second the answer generated from the context. In this case, the [RAG triad](https://docs.confident-ai.com/docs/guides-rag-triad#:~:text=What%20is%20the%20RAG%20Triad,is%20using%20the%20optimal%20hyperparameters) comes in handy. The idea is that you evaluate how relevant the output answer is to both the user query and retrieved context, as well as the relevance of retrieved context to the user query. 
+However, while it is possible for humans to grade a few tens or hunderds of examples, this becomes hard to scale. One problem is that grading just takes a lot of time. Each time you deploy a small variation, grading tens or hundreds of examples becomes expensive. Let's think about how to automate this. One option is if your task has well defined constaints. Let's say your users are asking questions based on a user manual - maybe a fridge product. Here answering the user query happens in two steps. First, the relevant context needs to be retrieved from the user manual, and second the answer generated from the context. In this case, the [RAG triad](https://docs.confident-ai.com/docs/guides-rag-triad#:~:text=What%20is%20the%20RAG%20Triad,is%20using%20the%20optimal%20hyperparameters) comes in handy. The idea is that you evaluate how relevant the output answer is to both the user query and retrieved context, as well as the relevance of retrieved context to the user query. 
 
 <figure >
     <a href="/assets/images2/rag-triad.png"><img src="/assets/images2/rag-triad.png" alt="[RAG Triad](https://docs.confident-ai.com/docs/guides-rag-triad#:~:text=What%20is%20the%20RAG%20Triad,is%20using%20the%20optimal%20hyperparameters)"></a>
@@ -69,9 +71,12 @@ Now you've deployed your model. Give yourself a pat on the back, sit back, and l
 
 While this sounds funny, it's unfortunately something I've seen mutiple times. It is important to learn from what went wrong, and improve. This is why it is important to have a robust data storage process - so that you can go back, and understand why your application was not as hot as you thought. Maybe its something simple that you can fix next time. A/B testing is a common practice, where you segment your user base into two groups - one receives the experiment, the other receives the control. Try to make life as simple as possible - make populations large and well defined. Don't have too many variants that can confuse these analyses. And don't change so many things at once, that you can't make a coherent analysis at the end. Remember ultimately you need to convince your peers and decision makers. While you might be able to do a complex analysis of multiple different variants and experiments and list 10 key takeaways, decision makers are more easily convinced by simple takeaways, and are more skeptical, the more complex your conclusions are.
 
+Let's say you are a startup - and don't have the same access to data as a larger company. A/B testing works once you've had initial success and a meaningful chunk of active users - but might not work so well in the beginning. Dean Pleban, Co-Founder & CEO at DagsHub mentions that he's seen startups get to that point by doing gradual rollouts with people they trust to give them tons of feedback and do quick iterations until they see something super sticky. Chances are once a few people find your product important, others will too.
+
 ## Takeaways
 Most of the learnings that stood out for me have been through trial by fire. I hope that these learnings can help you preemptively put your best foot forwards and produce amazing AI based applications that drive progress. AI is here to stay - and can really help those of us who are busy getting pulled in different directions - to delegate tasks. But it is important to properly delegate - otherwise you are left with a larger mess to clean up than you started off with. Keep it simple, remember that nothing has really changed in how you approach problems. You still have to solve for customers, learn through data, and keep improving. Don't get pressured into making hasty decisions. Everyone that matters will be thankful for it.
 
+Shoutout to Dean Pleban, Co-Founder & CEO at DagsHub 🐶 (a company that helps AI teams manage unstructured data and build better models) for his review and great suggestions.
 
 Subscribe to my mailing list!
 

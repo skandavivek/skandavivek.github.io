@@ -1,0 +1,6 @@
+marketing/
+_site/
+.jekyll-cache/
+.sass-cache/
+*.sublime-project
+*.sublime-workspace

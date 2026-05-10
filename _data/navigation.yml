@@ -24,6 +24,8 @@ main:
   #   url: /docs/quick-start-guide/
   - title: "About"
     url: /about/
+  - title: "Course"
+    url: /course/
   # - title: "Projects"
   #   url: /projects/
   - title: "Posts"

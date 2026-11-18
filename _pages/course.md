@@ -1,8 +1,8 @@
 ---
 layout: single
 permalink: /course/
-title: "Your LLM feature is live. Now make it actually work."
-excerpt: "A paid 4-week live cohort for engineers who shipped a GenAI feature and need to make it reliable."
+title: "Build AI Agents for Enterprises"
+excerpt: "A 4-week live cohort on Maven: build cost-effective, production-ready agentic systems that drive real business outcomes."
 author_profile: false
 classes: wide
 ---
@@ -105,78 +105,145 @@ classes: wide
   font-size: 0.92em;
   margin-bottom: 1.25em;
 }
+.cta-btn {
+  display: inline-block;
+  background: #1a1a1a;
+  color: #fff !important;
+  padding: 0.75em 1.6em;
+  border-radius: 6px;
+  font-weight: 700;
+  text-decoration: none !important;
+  margin: 0.5em 0.5em 0.5em 0;
+}
+.cta-btn.secondary {
+  background: #fff;
+  color: #1a1a1a !important;
+  border: 1px solid #1a1a1a;
+}
+.rating { color: #c58b00; font-weight: 700; }
+.review-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1.25em 1.5em;
+  background: #fafafa;
+  margin-bottom: 1.25em;
+}
+.review-card blockquote {
+  margin: 0 0 0.75em;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  color: #333;
+  font-size: 0.95em;
+}
+.review-meta { font-size: 0.82em; color: #777; }
+.lesson-card .week-items li::before { content: ""; }
 </style>
 
-<p class="course-subhead">A paid 4-week live cohort for engineers who shipped a GenAI feature and own making it reliable.</p>
+<p class="course-subhead">A 4-week live cohort on Maven. Learn to make the key decisions and investments that compound into successful business outcomes with GenAI &mdash; and build agentic systems that hold up in production.</p>
+
+<p>
+  <a class="cta-btn" href="https://maven.com/skanda/ai-agents-enterprises" target="_blank" rel="noopener">View the course on Maven &rarr;</a>
+  <a class="cta-btn secondary" href="https://maven.com/skanda" target="_blank" rel="noopener">All courses &amp; free lessons</a>
+</p>
 
 <div class="credibility-bar">
-  From the author of the <a href="https://learning.oreilly.com/library/view/retrieval-augmented-generation/9781098165161/" target="_blank">O'Reilly book on Retrieval Augmented Generation</a> and instructor of the O'Reilly live training on LLMs in Production.
+  <span class="rating">&#9733; 4.5</span> from alumni &middot; Taught by Skanda Vivek, senior AI scientist at Intuit building enterprise AI agents in production, author of <a href="https://learning.oreilly.com/library/view/retrieval-augmented-generation/9781098165161/" target="_blank">RAG in Production</a> (O'Reilly), and instructor of O'Reilly's data and AI live trainings.
 </div>
 
 <div class="audience-block">
   <p><strong>This course is for you if:</strong></p>
   <ul>
-    <li>You shipped a GenAI feature in the last year and you own keeping it working</li>
-    <li>You're seeing inconsistent outputs, silent failures, or user complaints you can't reproduce</li>
-    <li>You want a systematic approach — not another list of prompting tips</li>
+    <li>You're an engineer, data scientist, or business leader who needs AI agents to deliver results, not demos</li>
+    <li>You want to move from a promising prototype to a reliable, cost-effective multi-agent workflow in production</li>
+    <li>You want a systematic approach to evals, monitoring, and design decisions instead of trial and error</li>
   </ul>
 </div>
 
 <hr class="section-divider">
 
-<h2>What you'll get</h2>
+<h2>What you'll learn</h2>
 
-<p>4 weeks of live sessions with Skanda — small group, real back-and-forth, no lecture theater. Each week targets a specific layer of the reliability problem, in the order you'd actually attack it in production. Drawn from his O'Reilly courses on GenAI in Production and AI Context Engineering.</p>
+<p>Live sessions with Skanda, a small group, and plenty of back-and-forth. The course covers building end-to-end multi-agent workflows for production:</p>
 
 <div class="week-grid">
 
   <div class="week-card">
-    <div class="week-label">Week 1</div>
-    <p class="week-title">Diagnose</p>
+    <p class="week-title">Frame the business problem</p>
     <ul class="week-items">
-      <li>Why LLM evals are fundamentally different from traditional ML — and what that means for your system</li>
-      <li>The 4 context failure modes: poisoning, distraction, confusion, clash</li>
-      <li>Building a representative eval set from real production traffic, not synthetic data</li>
-      <li>Calibrating an LLM-as-Judge so you can stop evaluating by vibes</li>
+      <li>Turning a business need into a well-scoped agent use case</li>
+      <li>Defining business success metrics up front</li>
+      <li>Where to invest so that results compound over time</li>
     </ul>
   </div>
 
   <div class="week-card">
-    <div class="week-label">Week 2</div>
-    <p class="week-title">Context Engineering</p>
+    <p class="week-title">Context engineering</p>
     <ul class="week-items">
-      <li>Context as a first-class data layer — retrieve the right evidence, structure it, inject it efficiently</li>
-      <li>RAG in production: hybrid search, re-ranking, and query rewriting when basic retrieval breaks</li>
-      <li>Memory strategies: when to vectorize, summarize, or use an entity store</li>
-      <li>Keeping context fresh and relevant without ballooning token costs</li>
+      <li>Getting the right information to the model efficiently</li>
+      <li>Keeping agents accurate without ballooning token costs</li>
     </ul>
   </div>
 
   <div class="week-card">
-    <div class="week-label">Week 3</div>
-    <p class="week-title">Agents</p>
+    <p class="week-title">Agentic system design</p>
     <ul class="week-items">
-      <li>When to go agentic — and when it will make your reliability problem worse</li>
-      <li>Tool use, routing, and building loops that fail gracefully</li>
-      <li>MCP and the emerging standard for connecting agents to data and tools</li>
-      <li>Evaluating agents: testing multi-step systems without gold-standard labels</li>
+      <li>Design patterns for single-agent and multi-agent systems</li>
+      <li>Deep dive: how deep research agents work</li>
+      <li>Building LLM applications with open-source tools like LangChain</li>
     </ul>
   </div>
 
   <div class="week-card">
-    <div class="week-label">Week 4</div>
-    <p class="week-title">Production</p>
+    <p class="week-title">Evals &amp; monitoring</p>
     <ul class="week-items">
-      <li>Prompt versioning and model management across iterations</li>
-      <li>Monitoring for latency, cost, and quality drift — what to instrument and what to ignore</li>
-      <li>Context pruning strategies: when to summarize, truncate, or fix the retrieval</li>
-      <li>When to fine-tune vs. prompt-engineer vs. swap the model entirely</li>
+      <li>Agent evaluation you can actually trust</li>
+      <li>Tracing and LLM evaluation with open-source tools like Langfuse</li>
+      <li>Monitoring agents once they're in production</li>
     </ul>
   </div>
 
 </div>
 
+<p><a class="cta-btn" href="https://maven.com/skanda/ai-agents-enterprises" target="_blank" rel="noopener">See the full syllabus &amp; enroll on Maven &rarr;</a></p>
+
 <hr class="section-divider">
+
+<h2>What alumni say</h2>
+
+<div class="review-card">
+  <blockquote>"A comprehensive coverage of essentials for building end-to-end multi-agentic workflows in production that includes framing a business problem, efficient context engineering, agent evals and monitoring, agentic system design patterns and business success metrics! I particularly liked a deep dive into deep research agents and open-source tools such as langfuse for LLM evaluation and langchain for building LLM applications. If your goal is to learn how to build cost-effective and production-ready agentic systems, this bootcamp is a must-take!"</blockquote>
+  <div class="review-meta"><strong>Nataliya</strong> &middot; Senior Data Scientist, CBC/Radio-Canada &middot; Jul 2026 cohort</div>
+</div>
+
+<div class="review-card">
+  <blockquote>"Great AI cohort training offered by Skanda and it is very helpful for business owners who want to implement AI for their domain."</blockquote>
+  <div class="review-meta"><strong>Mari</strong> &middot; CEO, Samatva Wealth Management LLC &middot; Oct 2026 cohort</div>
+</div>
+
+<hr class="section-divider">
+
+<h2>Free lightning lessons</h2>
+
+<p>Want a feel for the course first? Join a free 1-hour interactive session on Maven.</p>
+
+<div class="week-grid">
+  <div class="week-card lesson-card">
+    <div class="week-label">Live &middot; Mon, Dec 7, 11:00 AM</div>
+    <p class="week-title">Securing AI Agents</p>
+    <a class="cta-btn" href="https://maven.com/p/6dfd80/securing-ai-agents" target="_blank" rel="noopener">Sign up free &rarr;</a>
+  </div>
+  <div class="week-card lesson-card">
+    <div class="week-label">Recording</div>
+    <p class="week-title">Build AI Agents For Enterprises</p>
+    <a class="cta-btn secondary" href="https://maven.com/p/2a4ded/build-ai-agents-for-enterprises" target="_blank" rel="noopener">Watch now &rarr;</a>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<h2>Not ready yet?</h2>
+<p>Get notified about the next cohort and new GenAI-in-production writing.</p>
 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -186,7 +253,7 @@ classes: wide
 <div id="mc_embed_signup">
   <form action="https://chaoscontrol.us7.list-manage.com/subscribe/post?u=cd3eef2d66d1a86e7eba23eb3&amp;id=fb46f3513a&amp;f_id=00bbb2e4f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
     <div id="mc_embed_signup_scroll">
-      <h2>Join the waitlist!</h2>
+      <h2>Stay in the loop</h2>
       <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
       <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
       <div id="mce-responses" class="clear foot">

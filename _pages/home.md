@@ -31,7 +31,7 @@ feature_row:
   - image_path: /assets/images2/leonardo-llama.jpg
     alt: "Cohort course"
     title: "Cohort Course"
-    excerpt: "LLMs in production — live cohort."
+    excerpt: "Build AI Agents for Enterprises — 4-week live cohort on Maven."
     url: "/course/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
